@@ -1,0 +1,34 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  transition: font-size 0.5s;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #222;
+  background-color: #fff;
+}
+
+@media (max-width: 520px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 360px) {
+  html,
+  body {
+    text-align: justify;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 300px) {
+  html,
+  body {
+    font-size: 11px;
+  }
+}

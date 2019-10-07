@@ -1,0 +1,57 @@
+.H {
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.H1 {
+  font-size: 2.5rem;
+  margin: 0 0 40px 0;
+}
+
+.H2 {
+  font-size: 1.8rem;
+  margin: 0 0 30px 0;
+}
+
+.H3 {
+  font-size: 1rem;
+  margin: 0 0 20px 0;
+}
+
+.H4 {
+  font-size: 0.8rem;
+  margin: 0 0 20px 0;
+}
+
+.H__is-title {
+  margin: 0 auto 1.2em auto;
+  position: relative;
+}
+
+.H__is-title::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  bottom: -0.6rem;
+  left: 0;
+  right: 0;
+  background-color: #333;
+}
+
+.H__subtitle {
+  color: #555;
+  line-height: 1;
+  font-weight: 400;
+  display: block;
+}
+
+.H1 > .H__subtitle,
+.H2 > .H__subtitle {
+  font-size: 0.6em;
+}
+
+.H3 > .H__subtitle,
+.H4 > .H__subtitle {
+  font-size: 0.8em;
+}

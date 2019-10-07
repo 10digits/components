@@ -1,0 +1,11 @@
+.Section {
+  margin: 0 1rem 3rem 1rem;
+  max-width: 940px;
+}
+
+@media (min-width: 940px) {
+  .Section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,32 @@
+.Image__caption {
+  display: block;
+  color: #838383;
+  margin: auto;
+  margin-top: 0.6rem;
+  text-align: center;
+  font-family: 'Cascadia Code';
+}
+
+.Image {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 80rem;
+  max-height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+@media (min-width: 940px) {
+  .Image {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Image {
+    height: 20rem;
+  }
+}

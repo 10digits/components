@@ -1,0 +1,31 @@
+.Tag {
+  align-items: center;
+  background-color: #838383;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-flex;
+  font-family: 'Cascadia Code';
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin-right: 6px;
+  min-height: 1.3rem;
+  position: relative;
+  padding: 1px 6px 2px 6px;
+  border: 1px solid #333;
+}
+
+.Tag__is-inverse {
+  background-color: #ededed;
+  color: #838383;
+  border: 1px solid;
+}
+
+.Tag::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1px solid white;
+}
