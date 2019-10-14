@@ -1,6 +1,7 @@
 import Article from './Article';
 import Blockquote from './Blockquote';
 import Clickable from './Clickable';
+import CountBadge from './CountBadge';
 import Field from './Field';
 import Form from './Form';
 import H from './H';
@@ -21,6 +22,7 @@ export {
   Article,
   Blockquote,
   Clickable,
+  CountBadge,
   Field,
   Form,
   H,
