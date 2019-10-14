@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './styles.css';
 
 const Blockquote = props => (
-  <blockquote className="Blockquote">{props.children}</blockquote>
+  <blockquote className="Blockquote"><span className="Blockquote__text">{props.children}</span></blockquote>
 );
 
 Blockquote.propTypes = {
