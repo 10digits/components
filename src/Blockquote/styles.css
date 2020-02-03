@@ -14,7 +14,7 @@
   margin: 20px auto;
   padding: 14px;
   position: relative;
-  border-top: 3px solid violet;
+  border-top: 3px solid #d476d4;
   border-bottom: 3px solid violet;
   transform: rotate(-1.2deg);
 }
