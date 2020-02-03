@@ -1,7 +1,13 @@
 .H {
-  font-family: 'Montserrat';
+  font-family: Raleway, sans-serif;
+  line-height: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1.25rem 0;
+  /* font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
-  font-weight: 800;
+  font-weight: 800; */
 }
 
 .H1 {
@@ -15,12 +21,12 @@
 }
 
 .H3 {
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin: 0 0 20px 0;
 }
 
 .H4 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0 0 20px 0;
 }
 
@@ -29,7 +35,7 @@
   position: relative;
 }
 
-.H__is-title::after {
+.H__is-title::before {
   content: '';
   position: absolute;
   height: 3px;
@@ -40,18 +46,23 @@
 }
 
 .H__subtitle {
-  color: #555;
-  line-height: 1;
-  font-weight: 400;
+  font-size: 0.75rem;
+  color: #999;
+  font-weight: 700;
+  letter-spacing: 3px;
+  line-height: 1.45rem;
+  margin: 0;
+  text-transform: uppercase;
   display: block;
 }
 
 .H1 > .H__subtitle,
 .H2 > .H__subtitle {
-  font-size: 0.6em;
+  font-size: 0.9rem;
 }
 
 .H3 > .H__subtitle,
 .H4 > .H__subtitle {
-  font-size: 0.8em;
+  font-size: 0.7rem;
+  line-height: 1rem;
 }

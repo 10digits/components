@@ -1,0 +1,31 @@
+.CountBadge {
+  align-items: center;
+  border-radius: 100%;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin: 1px;
+  position: relative;
+}
+
+.CountBadge__is-attached {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(55%, -55%);
+}
+
+.CountBadge::after {
+  border-radius: 100%;
+  border: 0.18em solid;
+  bottom: -1px; /* -1px on position to tackle background colour fuzzing */
+  content: '';
+  left: -1px;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+
+sup {
+  transform: translateY(-20%);
+}

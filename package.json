@@ -1,11 +1,13 @@
 {
   "name": "components",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "repository": "https://github.com/10digits/components.git",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "build": "BABEL_ENV=production babel src -d dist",
     "build-storybook": "build-storybook"
   },
   "keywords": [],
@@ -14,12 +16,18 @@
   "dependencies": {
     "dayjs": "^1.8.16"
   },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
   "devDependencies": {
-    "@babel/core": "^7.6.2",
-    "@storybook/addon-actions": "^5.2.1",
-    "@storybook/addon-links": "^5.2.1",
-    "@storybook/addons": "^5.2.1",
-    "@storybook/react": "^5.2.1",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.4",
+    "@storybook/addon-links": "^5.2.4",
+    "@storybook/addons": "^5.2.4",
+    "@storybook/react": "^5.2.4",
     "babel-loader": "^8.0.6"
   }
 }

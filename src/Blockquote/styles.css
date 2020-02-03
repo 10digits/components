@@ -1,22 +1,41 @@
 .Blockquote {
-  padding-left: 1.3rem;
-  margin-left: 2.6rem;
-  border-left: 6px solid #838383;
-  height: 3rem;
-  font-size: 1.2rem;
-  position: relative;
+  font-size: 1.6rem;
+  margin: 0;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  font-style: oblique;
-  font-family: 'Merriweather';
+  margin: 1.7rem 0;
 }
 
-.Blockquote::before {
+.Blockquote__text {
+  text-align: center;
+  font-style: oblique;
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
+  margin: 20px auto;
+  padding: 14px;
+  position: relative;
+  border-top: 3px solid #d476d4;
+  border-bottom: 3px solid violet;
+  transform: rotate(-1.2deg);
+}
+
+.Blockquote__text::before {
   font-style: initial;
   content: '‟';
-  font-size: 3.5rem;
+  font-size: 5rem;
   position: absolute;
-  left: -2.5rem;
+  top: -2rem;
+  left: -2rem;
   color: #cdcdcd;
+}
+
+.Blockquote__text::after {
+  font-style: initial;
+  content: '‟';
+  font-size: 5rem;
+  position: absolute;
+  bottom: -2rem;
+  right: -2rem;
+  color: #cdcdcd;
+  transform: rotate(180deg);
 }

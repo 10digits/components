@@ -4,7 +4,7 @@
   box-sizing: border-box;
   color: #fff;
   display: inline-flex;
-  font-family: 'Cascadia Code';
+  font-family: 'Source Code Pro', monospace;
   font-size: 0.75rem;
   font-weight: 300;
   margin-right: 6px;
